@@ -1,0 +1,220 @@
+*{
+    margin:none;
+    padding:none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    margin:0px;
+    padding:0px;
+    background:url(wall.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+
+
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+    z-index: 100;
+  }
+.window{
+    background-color:#080808 ;
+    height:5.6vh;
+   position:absolute;
+    width:100%;
+    padding:none;
+    margin:0px;;
+    bottom: 0.1px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+ overflow:hidden;
+}
+
+.taskbar{
+    border: none;
+    color: rgb(247, 234, 234);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 46px;
+    height: 34px;
+    bottom:5px;
+    position:absolute;
+    margin-left:3px;
+    font-size:31px;
+    background-color:#080808 ;
+    outline: none;
+
+}
+.tasks{
+    background-color:#080808 ;
+    height:76.6vh;
+    position:absolute;
+    width:400px;
+    padding:none;
+    margin:0px;;
+    bottom: 1px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+    display:none;
+}
+.wininput{
+    float: left;
+    margin-top: 2px;
+    margin-left: 60px;
+    border: none;
+    font-size: 15px;
+    height: 5vh;
+    width: 300px;
+    font-family: 'Helvetica', FontAwesome, sans-serif; 
+    
+   
+  
+}
+.wininput::placeholder {
+    color: rgb(17, 2, 2);
+    opacity: 1; /* Firefox */
+    font-size:16px;
+    margin-left:43px;
+  }
+.taskbars{
+    background:url(s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    bottom:-26px;
+    position:absolute;
+    right:-4px;
+    float:right;
+    font-size:31px;
+    
+}
+
+.vo{
+    background:url(so.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+    bottom:1px;
+    position:absolute;
+    right:-45px;
+    float:right;
+    font-size:31px;
+    outline: none;
+    
+    
+}
+.sd{
+    background:url(https://img.icons8.com/windows/344/ffffff/wired-network-connection.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    width: 26px;
+    height: 50px;
+    bottom:-49px;
+    position:absolute;
+    right:160px;
+    float:right;
+    font-size:31px;
+    
+    
+}
+.sss{
+
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    width: 26px;
+    height: 50px;
+    bottom:-42px;
+    position:absolute;
+    right:200px;
+    float:right;
+    font-size:21px;
+    color:white;
+    
+    
+}
+#time{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    bottom:-26px;
+    position:absolute;
+    right:44px;
+    float:right;
+    font-size:16px;
+    color:white;
+    
+}
+
+.range-slider{
+    float: right;
+    bottom: 55px;
+    position:absolute;
+    right:66px;
+    float:right;
+    font-size:31px;
+    background-color: white;
+    padding:10px;
+    display:none;
+    
+
+}
+
+.input-range {
+    -webkit-appearance: none;
+    height: 200px;
+    border-radius: 5px;
+    background: #ccc;
+    outline: none;
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    
+  }
+  
+ 
+  ::-moz-range-track {
+      background: #ccc;
+      border: 0;
+  }
+  
+  input::-moz-focus-inner { 
+    border: 0; 
+  }
+  
+  
+  
+  
+  
